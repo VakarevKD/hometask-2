@@ -1,23 +1,22 @@
 const renderProductsList = (data) => {
-	const productsList = document.querySelector('.products-list');
-	const template = document.querySelector('#product-template');
-	const productLink = template.content.querySelector('.product-link');
-	const productFavoriteIcon = template.content.querySelector('.favorite-icon');
-	const productImage = template.content.querySelector('.product-image');
-	const productTitle = template.content.querySelector('.product-title');
-	const productPrice = template.content.querySelector('.product-price');
-	data.forEach(product => {
-		productLink.href = product.link;
-		(product.favorite) ? productFavoriteIcon.classList.add('favorite-icon--active') : productFavoriteIcon.classList.remove('favorite-icon--active');
-		productImage.src = product.img;
-		productTitle.textContent = product.name;
-		productPrice.textContent = product.price;
+	const productsList = document.querySelector(".products-list");
+	const template = document.querySelector("#product-template");
+	data.forEach((product) => {
 		const element = template.content.cloneNode(true);
+		const productLink = element.querySelector(".product-link");
+		const productFavoriteIcon = element.querySelector(".favorite-icon");
+		const productImage = element.querySelector(".product-image");
+		const productTitle = element.querySelector(".product-title");
+		const productPrice = element.querySelector(".product-price");
+		(product.id) ? productLink.href = "./detailed-page.html?product-id" + product.id : productLink.href = "./detailed-page.html";
+		(product.favorite) ? productFavoriteIcon.classList.add("favorite-icon--active") : productFavoriteIcon.classList.remove("favorite-icon--active");
+		(product.img) ? productImage.src = product.img : productImage.src = "./img/product-image.png";
+		(product.name) ? productTitle.textContent = product.name : productTitle.textContent = "G Home";
+		(product.price) ? productPrice.textContent = "$" + product.price : productPrice.textContent = "$129";
 		productsList.append(element);
 	});
 }
 
-axios
-			.get('https://mocki.io/v1/1e1db1bf-f2c5-4753-a897-82e7bc9af30f')
-			.then(response => renderProductsList(response.data))
-			.catch(error => alert(error));
+axios.get("https://mocki.io/v1/62d2680b-0e3f-49b2-9e3a-9434e99bc366")
+.then((response) => renderProductsList(response.data))
+.catch((error) => alert(error));
