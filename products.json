@@ -1,0 +1,122 @@
+[
+	{
+		"id": 0,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 1,
+		"name": "G Home",
+		"price": 129,
+		"favorite": true,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 2,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 3,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 4,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 5,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 6,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 7,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 8,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 9,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 10,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 11,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 12,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 13,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 14,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	}
+]
