@@ -1,0 +1,108 @@
+[
+	{
+		"id": 0,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 1,
+		"name": "G Home",
+		"price": 129,
+		"favorite": true,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 2,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 3,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 4,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 5,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 6,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 7,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 8,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 9,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 10,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png",
+		"link": "./detailed-page.html"
+	},
+	{
+		"id": 11,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 12,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 13,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	},
+	{
+		"id": 14,
+		"name": "G Home",
+		"price": 129,
+		"favorite": false,
+		"img": "./img/product-image.png"
+	}
+]
