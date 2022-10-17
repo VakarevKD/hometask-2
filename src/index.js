@@ -1,7 +1,8 @@
-import renderProductsList from "./modules/renderProductsList.js";
-import filterProductsList from "./modules/filterProductsList.js";
-import debounce from "./modules/debounce.js";
-import "./index.css";
+import { renderProductsList } from "./modules/renderProductsList.js";
+import { filterProductsList } from "./modules/filterProductsList.js";
+import { debounce } from "./modules/debounce.js";
+import axios from "axios";
+import "./style.css";
 import "./index.html";
 
 let products;

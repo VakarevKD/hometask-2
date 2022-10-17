@@ -3,7 +3,6 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const isDev = process.env.NODE_ENV === "development";
-const isProd = !isDev;
 
 const filename = (ext) => isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`;
 
@@ -32,14 +31,14 @@ module.exports = {
 			template: path.resolve(__dirname, "src/index.html"),
 			filename: "index.html",
 			minify: {
-				collapseWhitespace: isProd
+				collapseWhitespace: !isDev
 			}
 		}),
 		new HTMLWebpackPlugin({
 			template: path.resolve(__dirname, "src/detailed-page.html"),
 			filename: "detailed-page.html",
 			minify: {
-				collapseWhitespace: isProd
+				collapseWhitespace: !isDev
 			}
 		}),
 		new MiniCssExtractPlugin({

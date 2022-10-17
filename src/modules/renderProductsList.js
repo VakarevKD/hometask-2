@@ -1,4 +1,4 @@
-const renderProductsList = (data) => {
+export const renderProductsList = (data) => {
 	const productsList = document.querySelector(".products-list");
 	const template = document.querySelector("#product-template");
 	productsList.innerHTML = '';
@@ -17,5 +17,3 @@ const renderProductsList = (data) => {
 		productsList.append(element);
 	});
 }
-
-export default renderProductsList;
