@@ -1,6 +1,7 @@
-const renderProductsList = (data) => {
+export const renderProductsList = (data) => {
 	const productsList = document.querySelector(".products-list");
 	const template = document.querySelector("#product-template");
+	productsList.innerHTML = '';
 	data.forEach((product) => {
 		const element = template.content.cloneNode(true);
 		const productLink = element.querySelector(".product-link");
@@ -16,7 +17,3 @@ const renderProductsList = (data) => {
 		productsList.append(element);
 	});
 }
-
-axios.get("https://mocki.io/v1/62d2680b-0e3f-49b2-9e3a-9434e99bc366")
-.then((response) => renderProductsList(response.data))
-.catch((error) => alert(error));
